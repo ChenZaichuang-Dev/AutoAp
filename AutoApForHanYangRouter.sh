@@ -214,4 +214,5 @@ init_data_from_file
 check_network_status
 if [ $? -gt 0 ] ; then
     change_connect_wifi
+    wifi
 fi
